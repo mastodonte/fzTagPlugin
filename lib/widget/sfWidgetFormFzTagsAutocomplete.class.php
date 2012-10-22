@@ -151,6 +151,6 @@ EOF
    */
   public function getJavascripts()
   {
-    return array('/fzTagPlugin/js/jquery.fcbkcomplete.js');
+    return array('/fzTagPlugin/js/jquery.fcbkcomplete.min.js');
   }
 }
