@@ -66,7 +66,7 @@ class sfWidgetFormFzTagsAutocomplete extends sfWidgetFormSelect
     %associated%
     <script type="text/javascript">
       jQuery(document).ready(function() {
-        jQuery("#%id% option").attr('selected','selected');
+        jQuery("#%id% option").attr('class','selected');
         jQuery("#%id%").fcbkcomplete({%config%});
       });
     </script>
@@ -151,6 +151,6 @@ EOF
    */
   public function getJavascripts()
   {
-    return array('/fzTagPlugin/js/jquery.fcbkcomplete.min.js');
+    return array('/fzTagPlugin/js/jquery.fcbkcomplete.js');
   }
 }
