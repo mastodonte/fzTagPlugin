@@ -1,0 +1,4 @@
+fzTaggablePlugin
+================
+
+Tags Management
