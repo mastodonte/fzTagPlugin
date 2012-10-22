@@ -60,7 +60,7 @@
           }
         }
         complete.hover(function() {complete_hover = 0;}, function() {complete_hover = 1;});
-        feed = $('<ul id="'+elemid+'_feed"></ul>').width(options.width);
+        feed = $('<ul id="'+elemid+'_feed"></ul>').width(options.width+10);
         holder.after(complete.prepend(feed));
         elPrepare();
       }
